@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="80" left="80" bottom="80" right="80"/>
+    <constraints>
+      <xy x="18" y="23" width="502" height="399"/>
+    </constraints>
+    <properties>
+      <background color="-14663599"/>
+      <enabled value="true"/>
+      <font name="Fira Code Medium" size="16"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4ba96" class="javax.swing.JButton" binding="addProblemButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8083028"/>
+          <text value="Add problem"/>
+        </properties>
+      </component>
+      <component id="d75b8" class="javax.swing.JButton" binding="addNewClientButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8083028"/>
+          <text value="Add new client"/>
+        </properties>
+      </component>
+      <component id="23772" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8083028"/>
+          <text value="Search "/>
+        </properties>
+      </component>
+      <component id="bf430" class="javax.swing.JButton" binding="updateButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8083028"/>
+          <text value="Update"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
